@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Single Event</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:400,500%7CIbarra+Real+Nova:400,600,600i,700">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="page">
+      <header class="section page-header">
+        <!--RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+            <div class="rd-navbar-aside-outer rd-navbar-collapse">
+              <div class="rd-navbar-aside">
+                <ul class="list-inline list-inline-md">
+                  <li>
+                    <div class="unit unit-spacing-xs align-items-center">
+                      <div class="unit-left"><span class="icon text-middle mdi-phone-in-talk mdi"></span></div>
+                      <div class="unit-body"><a href="tel:#">234 803 305 7210</a></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="unit unit-spacing-xs align-items-center">
+                      <div class="unit-left"><span class="icon text-middle mdi-map-marker mdi"></span></div>
+                      <div class="unit-body"><a href="#">Plot 17, 2nd Avenue, victory Estate, Makogi Extension,By Unchangeable Changer B/Stop, Makogi Via Magboro,Ogun State.</a></div>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="social-list">
+                  <li><a href="#"><span class="icon fa fa-youtube-play"></span></a></li>
+                  <li><a href="#"><span class="icon fa fa-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon fa fa-facebook-f"></span></a></li>
+                  <li><a href="#"><span class="icon fa fa-rss"></span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!--RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!--RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!--RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                    <!--Brand--><a href="index.html"><img src="data:image/jpeg;base64,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" alt="" width="94" height="27"/></a>
+                  </div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">About Us</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="ministries.html">Ministries</a>
+                      </li>
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="events.html">Events</a>
+                        <ul class="rd-menu rd-navbar-dropdown">
+                          <li class="rd-dropdown-item active"><a class="rd-dropdown-link" href="single-event.html">Single Event</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Breadcrumbs-->
+      <section class="breadcrumbs-custom bg-image" style="background-image: url(images/breadcrumbs-bg-2.jpg)" data-preset='{"title":"Breadcrumbs","category":"header","reload":false,"id":"breadcrumbs"}'>
+        <div class="container">
+          <div class="h1 breadcrumbs-custom-title">The Struggle with Fellowship <br class="d-none d-xl-block">  in Student Ministry</div>
+          <p class="breadcrumbs-custom-caption">Get closer to God every Thursday at our church</p>
+          <ul class="breadcrumbs-custom-path">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li class="active">Single Event</li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section-lg bg-default">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-10">
+              <div class="pre-title wow fadeInLeft" data-wow-delay=".1s">overview</div>
+              <h2 class="wow fadeInRight" data-wow-delay=".2s">Exploring The Attitude to Fellowship in Student Ministries</h2>
+              <p class="text-sm wow fadeInUp" data-wow-delay=".3s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed elit a urna mollis varius nec at ligula. Vivamus rhoncus odio ut ultrices efficitur. Suspendisse potenti. liquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas eget elit at lacus.</p>
+              <p class="text-sm wow fadeInUp" data-wow-delay=".4s"> Vestibulum sed elit a urna mollis varius nec at ligula. Vivamus rhoncus odio ut ultrices efficitur. Suspendisse potenti. liquam erat volutpat.</p>
+              <div class="single-event-date offset-xl-50"><span class="date">Jan 23, 2020</span><a class="location" href="#"><span class="icon mdi-map-marker mdi"></span>Plot 17, 2nd Avenue, victory Estate, Makogi Extension,By Unchangeable Changer B/Stop, Makogi Via Magboro,Ogun State.</a></div><a class="shadow btn btn-icon btn-icon-right btn-secondary btn-svg offset-xl-55 wow fadeInUp" href="about-us.html" data-wow-delay=".3s"><span class="svg-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewbox="0 0 18 10" fill="#fff">
+                    <path d="M13 10V6H0V4H13V0L18 5L13 10Z" fill=""></path>
+                  </svg></span><span>Register here</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-lg bg-default">
+        <div class="container">
+          <div class="pre-title text-center">Nearest & Upcoming</div>
+          <h2 class="text-center">Upcoming Events</h2>
+          <div class="row row-narrow-50 row-30 row-xl">
+            <div class="col-lg-4">
+              <div class="post-classic sm">
+                <div class="post-classic__media"><a href="#"><img src="images/event-4-390x273.jpg" alt="" width="390" height="273"/></a></div>
+                <div class="post-classic__caption"><span class="post-info">C.A.C UNCHANGEABLE CHANGER,  January 23, 2020 </span>
+                  <h3 class="post-title"><a href="#">Why Do Sermons Matter? Live Discussion</a></h3><a class="btn btn-icon btn-icon-right btn-transparent btn-svg" href="#"><span class="svg-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewbox="0 0 18 10">
+                        <path d="M13 10V6H0V4H13V0L18 5L13 10Z" fill=""></path>
+                      </svg></span><span>Read More</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="post-classic sm">
+                <div class="post-classic__media"><a href="#"><img src="images/event-5-390x273.jpg" alt="" width="390" height="273"/></a></div>
+                <div class="post-classic__caption"><span class="post-info">C.A.C UNCHANGEABLE CHANGER,  January 23, 2020 </span>
+                  <h3 class="post-title"><a href="#">Why Disappointment With Your Pastor Could Be a Good Thing</a></h3><a class="btn btn-icon btn-icon-right btn-transparent btn-svg" href="#"><span class="svg-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewbox="0 0 18 10">
+                        <path d="M13 10V6H0V4H13V0L18 5L13 10Z" fill=""></path>
+                      </svg></span><span>Read More</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="post-classic sm">
+                <div class="post-classic__media"><a href="#"><img src="images/event-6-390x273.jpg" alt="" width="390" height="273"/></a></div>
+                <div class="post-classic__caption"><span class="post-info">C.A.C UNCHANGEABLE CHANGER,  January 23, 2020 </span>
+                  <h3 class="post-title"><a href="#">Everyday Evangelism: The Importance of Faithful Laymen</a></h3><a class="btn btn-icon btn-icon-right btn-transparent btn-svg" href="#"><span class="svg-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewbox="0 0 18 10">
+                        <path d="M13 10V6H0V4H13V0L18 5L13 10Z" fill=""></path>
+                      </svg></span><span>Read More</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="section footer-classic">
+        <div class="footer-body">
+          <div class="container">
+            <div class="row justify-content-xl-between row-40 justify-content-lg-center">
+              <div class="col-lg-6">
+                <div class="row row-20">
+                  <div class="col-sm-4 col-6 wow fadeInUp" data-wow-delay=".1s">
+                    <div class="footer-title">Who We Are</div>
+                    <ul class="nav-list">
+                      <li><a href="about-us.html">About Us</a></li>
+                      <li><a href="ministries.html">Ministries</a></li>
+                      <li><a href="events.html">Events</a></li>
+                      <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-4 col-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="footer-title">Help</div>
+                    <ul class="nav-list">
+                      <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 inset-right-100 wow fadeInRight" data-wow-delay=".3s">
+                <div class="footer-title">Contact us</div>
+                <ul class="contact-list">
+                  <li>Plot 17, 2nd Avenue, victory Estate, Makogi Extension,By Unchangeable Changer B/Stop, Makogi Via Magboro,Ogun State.</li>
+                  <li><span>Call us:</span>+234 803 305 7210</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-aside">
+          <div class="container">
+            <div class="row row-xl-40">
+              <div class="col-12 wow fadeInUp" data-wow-delay=".2s">
+                <p>C.A.C UNCHANGEABLE CHANGER is a Family of Faith that is committed to Bible teaching and joyful worship. Children, youth and adults of all ages are ministered to and given opportunities to serve the Lord by serving others. You are invited to join us and experience what it is like to be a part of the family. We have much to offer you. C.A.C UNCHANGEABLE CHANGER is a state Church where each person is made to feel welcomed and wanted. We take seriously our mission statement, which is "To Know Jesus and make Him known; To Follow the Leadership of the Holy Spirit; and to Take God's Word to God's World.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
